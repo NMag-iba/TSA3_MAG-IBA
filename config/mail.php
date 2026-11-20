@@ -35,6 +35,11 @@ return [
     |
     */
 
+    'task_recipient' => env(
+        'TASK_NOTIFICATION_EMAIL',
+        env('MAIL_FROM_ADDRESS')
+    ),
+
     'mailers' => [
 
         'smtp' => [

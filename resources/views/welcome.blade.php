@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.site')
 
 @section('title', "Today's Tasks")
 @section('heading', "Today's Tasks")
